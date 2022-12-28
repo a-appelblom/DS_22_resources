@@ -10,6 +10,8 @@ Planen hittar ni i en fil som heter plan.md eller så kan ni klicka [här](plan.
 
 ## [Resurslista](resources.md)
 
+Under kursen kommer jag oundvikligt att hitta, prata om, få till mig intressant material som jag tror ni kan tycka är intressant eller kan ha nytt av. Jag kommer att lägga in detta i denna resurslista
+
 ## Få koden / repot lokalt
 
 Jag kommer udner utblidningen att gå igenom lite git med er för det är en otroligt viktig kunskap att ha i tech/kodvärlden.
