@@ -1,0 +1,94 @@
+# Python kurs
+
+## Översikt
+
+- Föreläsning 1, gemensam, Intro + installation
+  - Presentation
+  - Förväntningar undersökning
+  - Kursplanen / Målen
+  - Lektionsplanen
+  - Hur jag lär ut
+  - Inlämning - kort förklaring
+  - Python
+    - historia
+    - användningsområden
+  - Installation
+    - Python
+    - vscode
+      - Python extension
+    - Terminal
+  - "Övning" 1 : Installlera
+- Föreläsning 2, delad, Terminal, Variabler, Grundläggande Datatyper
+  - Terminal
+    - Navigering
+    - Skapa mappar
+    - skapa filer
+    - Köra python
+  - Python vad händer med min kod
+  - Grundläggande Datatyper
+    - Int
+    - Float
+    - String
+    - Boolean
+    - None
+  - Aritmetik
+- Föreläsning 3, gemensam, Datastrukturer, Logik
+  - Listor
+    - nesting / dimensioner
+  - Dictionaries
+    - . syntax
+    - string syntax
+    - nesting
+  - tuples
+    - Skapa
+    - Unpacking
+  - operatorer
+    - "=="
+    - "!="
+    - ">"
+    - ">="
+    - "<"
+    - "<="
+  - if
+    - if
+    - elif
+    - else
+- Föreläsning 4: gemensam, funktioner, kodstruktur
+  - DRY
+  - Struktur i fil
+  - Filstruktur
+- Föreläsning 5: gemensam, Installera och använda bibliotek
+  - ENV
+    - PIP
+    - Anaconda
+    - PIPENV / VENV / CONDA
+  - Bibliotek
+    - Standard
+      - enum
+      - Datetim
+      -
+    - Requests
+    - Flask
+- Föreläsning 6: delad, Hämta data
+  - Fil
+  - API
+  - Scraping\*
+- Föreläsning 7:, gemensam, Arbeta med databas
+  - Typer av databas
+  - Koppla till databas
+  - SQL i python
+  - ORM
+    - SQLAlchemy
+    - övriga
+- Föreläsning 8: delad, DS bibliotek
+  - Numpy
+  - Pandas
+  - Matlibplot
+- Föreläsning 9: gemensam, Bygger webscraper
+- Föreläsning 10: delad, Bygger API
+- Föreläsning 11-15: TBD
+- Förläsning 16: Projekt demo.
+
+## Föreläsningar
+
+### Föreläsning 1
