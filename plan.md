@@ -129,4 +129,18 @@ Jag kommer att visa några exempel på användningområden av python som språk.
 
 #### Installation
 
-#####
+##### Python
+
+Jag kommer att demonstrerara hur n installerar python samt att gå igenom saker att vara försiktig med när man installerar.
+
+##### Visual Studio Code
+
+Jag kommer att visa er hur ni installerar visual studio code samt gå igenom vad det är. Vill ni använda ett alternativ till detta så får ni det men all livekodning jag gör kommer att vara i denna editor.
+
+###### Python extension
+
+I visual studio code så kan man ha extensions som ändrar beteendet av editorn. Jag kommer visa er hur ni installerar en extension för just Python för att förbättra upplevelsen.
+
+##### Terminal
+
+Jag kommer att gå igenom vilka terminaler vi kan avnända och vilka jag rekomenderar att ni installerar.
