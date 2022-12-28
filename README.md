@@ -4,9 +4,11 @@
 
 Här på github kommer all kod jag skirver under föreläsningarna att laddas upp efter lektionen. Det är mycket trorligt att jag även laddar upp annat roligt material, experiment eller vad jag nu hittar på här också.
 
-## Planen
+## [Planen](plan.md)
 
 Planen hittar ni i en fil som heter plan.md eller så kan ni klicka [här](plan.md). Det kommer att vara ett levande dokument där planen framöver ligger då det kan komma att behövas anpassas beroende på vad det finns för önskemål i klassen samt om det finns någonstans där skon kanske klämmer lite extra.
+
+## [Resurslista](resources.md)
 
 ## Få koden / repot lokalt
 
