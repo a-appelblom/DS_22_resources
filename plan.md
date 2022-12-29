@@ -101,6 +101,8 @@ Klasser, Objekt
 
 ## Föreläsningar
 
+---
+
 ### Föreläsning 1: Intro & Installation
 
 #### Presentation
@@ -153,6 +155,8 @@ I visual studio code så kan man ha extensions som ändrar beteendet av editorn.
 
 Jag kommer att gå igenom vilka terminaler vi kan avnända och vilka jag rekomenderar att ni installerar.
 
+---
+
 ### Föreläsning 2: Terminal, Variable, Grundläggande datatyper
 
 #### Terminal
@@ -176,6 +180,8 @@ None: Representerar avsaknaden av data, är en global konstant i Python
 #### Aritmetik
 
 Med de datatyper vi gått igenom så ska vi prova lite aritmetik. Det vill säga lägga ihop, dividera och leka med datatyper i Python.
+
+---
 
 ### Föreläsning 3: Datastrukturer & Logik
 
@@ -205,27 +211,51 @@ Vi kommer att gå igenom hur vi kan använda if-satser i python. Vi kommer att g
 
 ### Föreläsning 4: Funktioner, Klasser, kodstruktur
 
+---
+
 ### Föreläsning 5: Installera, hämta & använda paket
+
+---
 
 ### Föreläsning 6: Hämta data
 
+---
+
 ### Föreläsning 7: Arbeta med databaser
+
+---
 
 ### Föreläsning 8: DataScience bibliotek
 
+---
+
 ### Föreläsning 9: Bygga en enkel webscraper
+
+---
 
 ### Föreläsning 10: Bygga ett API
 
+---
+
 ### Föreläsning 11
+
+---
 
 ### Föreläsning 12
 
+---
+
 ### Föreläsning 13
+
+---
 
 ### Föreläsning 14
 
+---
+
 ### Föreläsning 15
+
+---
 
 ### Föreläsning 16: ProjektDemo
 
