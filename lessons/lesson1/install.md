@@ -6,7 +6,7 @@ Vi komemr under kuursen använda terminalen ganska mycket. Jag rekomenderar någ
 
 ### Windows
 
-På windows kommer jag använda mig av powershell. Den finns redan installerad på era datorer mest troligt. Min terminal kommer att se lite annorlunda ut från eran troligtvis då jag har modifierat den lite men det ska inte vara några konstigheter.
+På windows kommer jag använda mig av powershell i kombination med git bash. Det återstår att se lite. Men allt går med powershell så det borde räcka. Den finns redan installerad på era datorer mest troligt. Min terminal kommer att se lite annorlunda ut från eran troligtvis då jag har modifierat den lite men det ska inte vara några konstigheter.
 
 Vill ni prova att modda den lite själva så rekomenderar jag att titta på [oh-my-posh](https://ohmyposh.dev/). Det är en plugin till powershell som gör den lite snyggare.
 
