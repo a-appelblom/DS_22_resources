@@ -16,7 +16,6 @@
     - vscode
       - Python extension
     - Terminal
-  - "Övning" 1 : Installlera
 - [Föreläsning 2](#föreläsning-2), delad, Terminal, Variabler, Grundläggande Datatyper
   - Terminal
     - Navigering
