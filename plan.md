@@ -55,7 +55,16 @@
     - if
     - elif
     - else
-- [Föreläsning 4](#föreläsning-4): gemensam, funktioner, kodstruktur
+- [Föreläsning 4](#föreläsning-4): gemensam, funktioner, klasser-intro, kodstruktur
+  - Funktioner
+    - Skapa
+    - Anropa
+    - Returnera
+  - Klasser
+    - attribut
+    - metoder
+    - dunder/magic methods
+    - instanser
   - DRY
   - Struktur i fil
   - Filstruktur
@@ -93,10 +102,6 @@
 - [Föreläsning 14](#föreläsning-14): TBD
 - [Föreläsning 15](#föreläsning-15): TBD
 - [Förläsning 16](#föreläsning-16): Projekt demo.
-
-Ska läggas till
-
-Klasser, Objekt
 
 ## Föreläsningar
 
@@ -208,7 +213,31 @@ Operatorer eller logiska operatorer i detta fall är vad som används för att j
 
 Vi kommer att gå igenom hur vi kan använda if-satser i python. Vi kommer att gå igenom hur vi kan använda dem för att göra olika saker beroende på om ett värde är större eller mindre än ett annat värde.
 
-### Föreläsning 4: Funktioner, Klasser, kodstruktur
+### Föreläsning 4: Funktioner, Klasser-intro, kodstruktur
+
+#### Funktioner
+
+Vi tittar på det mest grundläggande sättet att återanvända kod. Vi kollar på definition, parametrar och returvärden. Sen anrop, argument och hur vi hanterar vad som returneras.
+
+Vi diskuterar också hur vi kan använda funktioner för att skapa enkel kodstruktur. och vad som är värt att tänka på när de implementeras.
+
+#### Klasser
+
+Vi kommer att gå igenom grunderna i klasser. Vi kommer bygga på detta senare.
+
+Vi pratar om enkla attribut och metoder. Vi ska också prata om några dunder / magic methods som används i klasser och vad de gör.
+
+#### DRY
+
+Vad är DRY och hur använder vi funktioner och klasser för att hålla våran kod DRY.
+
+#### Struktur i fil
+
+Vi kommer att gå igenom lite saker att tänka på när vi strukturerar kod i filer. Vad som är standard i placering av funktioner, variabler och klasser.
+
+#### Filstruktur
+
+Vi går igenom hur vi kan dela upp vår kod i olika filer för att göra koden mer läsbar, lättare att återanvända och för att hålla struktur.
 
 ---
 
