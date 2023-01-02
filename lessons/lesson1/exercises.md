@@ -75,3 +75,39 @@ På mac så finns det lite olika alternativ också. Standard typen av terminal p
 Prova att starta python i terminalen och se vad som händer.
 
 Lek runt lite så kommer jag att visa mer om det i nästa lektion.
+
+## Övning 4: Terminalen, mappar och filer
+
+Pröva att med endast terminalen skapa följande:
+
+```
+min_mapp/
+    min_fil.txt
+    min_fil2.txt
+    min_andra_mapp/
+        min_fil3.txt
+        min_fil4.txt
+    min_tredje_mapp/
+        min_fil5.txt
+        min_fil6.txt
+```
+
+Flytta sedan alla textfiler att ligga i omvänd ordning. Så att min_fil6.txt ligger i min_mapp och min_fil.txt ligger i min_tredje_mapp osv.
+Ta sedan bort min_tredje_mapp och filerna i den.
+Döp om min_andra_mapp till min_speciella_mapp. med hjälp av mv / move kommandot.
+Skapa en ny mapp som heter min_nya_mapp och flytta alla filer dit.
+Ta bort min mapp
+Ta bort min_nya_mapp
+
+Lite hattigt men kommandona kommer att sitta efter detta.
+
+## Övning 5: Git
+
+1. Skapa ett konto på github
+2. Skapa ett nytt repository
+3. Klona det till din dator
+4. Skapa en ny readme
+5. Lägg till filen i git
+6. Commita filen
+7. Pusha filen till github
+8. Gå in på github och se att filen finns där
