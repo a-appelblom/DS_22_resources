@@ -111,3 +111,5 @@ Lite hattigt men kommandona kommer att sitta efter detta.
 6. Commita filen
 7. Pusha filen till github
 8. Gå in på github och se att filen finns där
+
+testa staker
