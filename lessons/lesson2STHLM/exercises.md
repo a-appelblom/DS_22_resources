@@ -36,3 +36,5 @@ Glömde kankse nämna att för att komma åt element i en nästlad lista så lä
 Gör samma sak som med listorna fast med dictionaries. Se vad som händer, vad ni får för felkoder.
 
 Prova att lägga till lite olika datatyper både som värde och key i dictionaries. Se vad ni får för felkoder. Prover er fram och se vad som fastnar.
+
+## Övning 5
