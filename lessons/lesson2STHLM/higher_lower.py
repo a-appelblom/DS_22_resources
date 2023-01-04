@@ -6,12 +6,12 @@ import random
 # 1 Ett slumpat tal för varje
 # 2 Ett input från användaren
 # 3 En loop som håller spelet igång
-# 4 Ett block med if satser som kollar om det är högre eller lägre
+# 4 Ett block med if satser som kollar om nästa nummer är högre eller lägre
 
 # Sen Är det alltid trevligt med lite scores så om man gissar rätt kan spelet fortsätta med en score som tickar upp tills det förloras.
 
 # Ett random nummer kan enkelt implementeras med en funktion som heter random, men den måste importeras.
-# Jag löser det år er här tills vi pratar importer senare
+# Jag löser det åt er här tills vi pratar importer senare
 
 # Förslag skapa en min och en max variabel så är det lätt att justera i efterhand.
 # max:int = int()
