@@ -16,12 +16,12 @@
     - vscode
       - Python extension
     - Terminal
-- [Föreläsning 2](#föreläsning-2), delad, Terminal, Variabler, Grundläggande Datatyper
   - Terminal
     - Navigering
     - Skapa mappar
     - skapa filer
     - Köra python
+- [Föreläsning 2](#föreläsning-2), delad, Variabler, Grundläggande Datatyper, datastrukturer
   - Python vad händer med min kod
   - Grundläggande Datatyper
     - Int
@@ -30,7 +30,6 @@
     - Boolean
     - None
   - Aritmetik
-- [Föreläsning 3](#föreläsning-3), gemensam, Datastrukturer, Logik
   - Listor
     - nesting / dimensioner
     - slicing
@@ -44,9 +43,24 @@
   - tuples
     - Skapa
     - Unpacking
+- [Föreläsning 3](#föreläsning-3), gemensam, Logik, listor fortsatt, loopar, if-satser
+  - Loopar
+    - for
+    - while
+  - listmetoder
+    - append
+    - pop
+    - remove
+    - insert
+    - sort
+    - reverse
+    - clear
+    - copy
+  - Logik
+    - and
+    - or
+    - not
   - operatorer
-    - "=="
-    - "!="
     - ">"
     - ">="
     - "<"
@@ -82,7 +96,7 @@
 - [Föreläsning 6](#föreläsning-6): delad, Hämta data
   - Fil
   - API
-  - Scraping\*
+  - Scraping
 - [Föreläsning 7](#föreläsning-7):, gemensam, Arbeta med databas
   - Typer av databas
   - Koppla till databas
