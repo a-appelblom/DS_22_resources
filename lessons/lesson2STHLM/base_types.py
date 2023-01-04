@@ -138,3 +138,37 @@ none1 = None
 # Funkar inte
 # test = int1 + none1
 # print(test)
+
+# Casting
+
+print("")
+print("______________Casting___________________")
+
+
+floater = 1.0
+inter = 1
+inter2 = 0
+stringer = "1"
+stringer2 = "1.5"
+booler = True
+booler2 = False
+
+print(int(floater))
+print(float(inter))
+print(int(stringer))
+# print(int(stringer2))
+print(float(stringer))
+print(float(stringer2))
+
+print(bool(inter))
+print(bool(inter2))
+
+print(int(booler))
+print(int(booler2))
+
+print(float(booler))
+print(float(booler2))
+
+print(str(floater))
+print(str(inter))
+print(str(booler))
