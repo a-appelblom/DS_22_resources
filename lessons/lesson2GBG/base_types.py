@@ -136,6 +136,8 @@ inter = 2
 inter2 = 0
 stringer = "1"
 stringer2 = "1.5"
+stringer3 = "Hola"
+stringer4 = "0"
 booler = True
 booler2 = False
 
@@ -164,4 +166,10 @@ result = str(inter2) + str(floater) + str(booler) + str(booler2)
 print(result, type(result))
 
 result = bool(stringer)
+print(result, type(result))
+
+result = bool(stringer3)
+print(result, type(result))
+
+result = bool(int(stringer4))
 print(result, type(result))
