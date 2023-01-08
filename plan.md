@@ -43,19 +43,9 @@
   - tuples
     - Skapa
     - Unpacking
-- [Föreläsning 3](#föreläsning-3), gemensam, Logik, listor fortsatt, loopar, if-satser
   - Loopar
     - for
     - while
-  - listmetoder
-    - append
-    - pop
-    - remove
-    - insert
-    - sort
-    - reverse
-    - clear
-    - copy
   - Logik
     - and
     - or
@@ -69,26 +59,52 @@
     - if
     - elif
     - else
-- [Föreläsning 4](#föreläsning-4): gemensam, funktioner, klasser-intro, kodstruktur
+- [Föreläsning 3](#föreläsning-3), gemensam, Logik, listor fortsatt, loopar, if-satser
+  - listmetoder
+    - append
+    - pop
+    - remove
+    - insert
+    - sort
+    - reverse
+    - clear
+    - copy
   - Funktioner
     - Skapa
     - Anropa
     - Returnera
+  - DRY
+  - Struktur i fil
+  - (Om vi hinner) Standardbibliotek
+    - Datetime
+    - Enum
+    - Random
+    - Math
+    - OS
+    - Sys
+    - ...mfl
+- [Föreläsning 4](#föreläsning-4): gemensam, funktioner, klasser-intro, kodstruktur
   - Klasser
     - attribut
     - metoder
     - dunder/magic methods
     - instanser
-  - DRY
-  - Struktur i fil
   - Filstruktur
+  - (Om vi hinner) Standardbibliotek
+    - Datetime
+    - Enum
+    - Random
+    - Math
+    - OS
+    - Sys
+    - ...mfl
 - [Föreläsning 5](#föreläsning-5): gemensam, Installera och använda bibliotek
   - ENV
     - PIP
     - Anaconda
     - PIPENV / VENV / CONDA
   - Bibliotek
-    - Standard
+    - (Om vi inte har hunnit) Standard
       - enum
       - Datetim
       - ...mfl
@@ -173,13 +189,13 @@ I visual studio code så kan man ha extensions som ändrar beteendet av editorn.
 
 Jag kommer att gå igenom vilka terminaler vi kan avnända och vilka jag rekomenderar att ni installerar.
 
----
-
-### Föreläsning 2: Terminal, Variable, Grundläggande datatyper
-
 #### Terminal
 
 Vi kommer att gå igenom och öva på att naviger i terminalen. Vi ska även titta på att skapa filer och hur vi kan köra Python genom terminalen, med filer och som interpreterare.
+
+---
+
+### Föreläsning 2: Terminal, Variable, Grundläggande datatyper
 
 #### Vad händer med koden
 
@@ -200,8 +216,6 @@ None: Representerar avsaknaden av data, är en global konstant i Python
 Med de datatyper vi gått igenom så ska vi prova lite aritmetik. Det vill säga lägga ihop, dividera och leka med datatyper i Python.
 
 ---
-
-### Föreläsning 3: Datastrukturer & Logik
 
 #### Listor
 
@@ -227,7 +241,7 @@ Operatorer eller logiska operatorer i detta fall är vad som används för att j
 
 Vi kommer att gå igenom hur vi kan använda if-satser i python. Vi kommer att gå igenom hur vi kan använda dem för att göra olika saker beroende på om ett värde är större eller mindre än ett annat värde.
 
-### Föreläsning 4: Funktioner, Klasser-intro, kodstruktur
+### Föreläsning 3: Funktioner och kod upplägg
 
 #### Funktioner
 
@@ -235,19 +249,21 @@ Vi tittar på det mest grundläggande sättet att återanvända kod. Vi kollar p
 
 Vi diskuterar också hur vi kan använda funktioner för att skapa enkel kodstruktur. och vad som är värt att tänka på när de implementeras.
 
-#### Klasser
-
-Vi kommer att gå igenom grunderna i klasser. Vi kommer bygga på detta senare.
-
-Vi pratar om enkla attribut och metoder. Vi ska också prata om några dunder / magic methods som används i klasser och vad de gör.
-
 #### DRY
 
 Vad är DRY och hur använder vi funktioner och klasser för att hålla våran kod DRY.
 
 #### Struktur i fil
 
-Vi kommer att gå igenom lite saker att tänka på när vi strukturerar kod i filer. Vad som är standard i placering av funktioner, variabler och klasser.
+Vi kommer att gå igenom lite saker att tänka på när vi strukturerar kod i filer. Vad som är standard i placering av funktioner, variabler.
+
+### Föreläsning 4: Klasser-intro
+
+#### Klasser
+
+Vi kommer att gå igenom grunderna i klasser. Vi kommer bygga på detta senare.
+
+Vi pratar om enkla attribut och metoder. Vi ska också prata om några dunder / magic methods som används i klasser och vad de gör.
 
 #### Filstruktur
 
