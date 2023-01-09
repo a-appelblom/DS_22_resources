@@ -59,7 +59,7 @@
     - if
     - elif
     - else
-- [Föreläsning 3](#föreläsning-3), gemensam, Logik, listor fortsatt, loopar, if-satser
+- [Föreläsning 3](#föreläsning-3), Funktioner och kod upplägg
   - listmetoder
     - append
     - pop
