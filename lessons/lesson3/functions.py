@@ -1,8 +1,10 @@
+from typehints_typings import my_function as my_imported_funtion
 # Indentering
 # Funktioner
 # Definition
 # parametrar
 # argument (position, namngivna)
+
 
 def my_function(name, surname, *rest):
     print("In my function ", rest)
@@ -111,5 +113,29 @@ def add_value(value1, value2, *args):
 
 my_result = add_value(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
 my_result2 = add_value("a", "b", "c", "d")
-print(my_result)
-print(my_result2)
+# print(my_result)
+# print(my_result2)
+
+# Funktioner är i sig också objekt,
+# vilket betyder att en funktion kan skickas till en funktion som argument
+
+
+class MyClass():
+    a: int
+
+    def __init__(self):
+        print("Halloj från klass")
+
+
+def func1():
+    print("func1")
+
+
+def func2(a):
+    a()
+    print(a)
+
+
+func2(MyClass)
+
+# my_imported_funtion()

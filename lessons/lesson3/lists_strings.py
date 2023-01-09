@@ -72,6 +72,7 @@ print(my_name)
 
 a = 1
 a.anotn()
+
 # funkar inte! Då listor inte har join
 # my_name_again = letter_list.join()
 # print(my_name_again)
