@@ -30,14 +30,36 @@ Målet här är därför att få funktionerna så generella som möjligt så att
 
 ## Utmaningen: Tic Tac Toe / Luffarschack
 
-!! Kommer mer strax tsms med en liten starter fil kallad tic_tac_toe_hint.py !!
+En liten note om spel som övning:
+Jag gillar att använda spel som övningar och utmaningar under mina programmeringskurser, inte för att de är de mest användbara, utan för att de är väldigt tydligt definierade problem att lösa. Det är tydligt vad som är slutet och det är ganska lätt att planera inkrementen dit.
+
+Ta detta spel så kan stegen vara.
+
+1. Skriv ut spelplanen.
+2. Ta input från användaren.
+3. Ändra spelplanen med användarens input.
+4. Validera inputen så inget kan skrivas över.
+5. Kolla om någon har vunnit.
+   5.1 kolla per rad
+   5.2 kolla per kolumn
+   5.3 kolla diagonalt
+
+!!! Se tic_tac_toe_hint.py för fler tips.
 
 Detta är en utmaning som är lite mer avancerad. Det kommer kräva lite jobb med listor, strängar och loopar.
 
 Lite tips för att komma igång.
 Lös uppgiften stegvis. Några funktioner som kanske kan vara bra att skapa är:
-print_board() - skriver ut spelplanen
+`print_board()` - skriver ut spelplanen
+`get_input()` - tar input från användaren
+`validate_input()` - validerar input från användaren, kom ihåg att det ska både vara ett valid input och att det ska vara en tom ruta
+`update_board()` - uppdaterar spelplanen med användarens input
+`check_winner()` - kollar om någon har vunnit
 
 Det är enklast att börja med att skapa en funktion som kan skriva ut spelplanen. Hur ni löser detta är upp till er men jag kan tipsa om en lista med listor.
 
 Mitt förslag till tecken att representera tomma rutor är `#` och för spelare 1 och 2 är det `X` och `O` respektive.
+
+Lyckas ni lösa uppgiften väldigt enkelt kan ni testa att bygga ut det till ett spel mot datorn. Då kan ni använda `random` modulen för att slumpa vilken ruta som datorn ska välja.
+
+Vill ni göra det ännu större kan ni sedan bygga vidare till ett fyra i rad spel istället. Då tillkommer det flere vinstkombinationer och fler regler.
