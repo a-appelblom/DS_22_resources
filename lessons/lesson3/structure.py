@@ -3,7 +3,8 @@ import random
 import enum
 
 # Globala variabler
-MAX = 100
+global x
+x = 100
 
 # Funktioner
 
@@ -11,15 +12,19 @@ MAX = 100
 # main
 def main():
     print("My program")
-    my_function()
+    result = my_function()
+    print(result)
 
 
 # hjälpfunktioner
 def my_function():
     # Först ska variabler ligga.
-
+    global x
     # Sen logik
-    res = 1+1
+    res = x+1
 
     # sist return
     return res
+
+
+main()
