@@ -1,3 +1,5 @@
+# Tjofdderittan lej
+
 # Hur fungerar pop funktionen på en lista.
 
 people = ["Anton", "Erik", "Maja", "Amanda"]
