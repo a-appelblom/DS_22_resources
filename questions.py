@@ -1,3 +1,5 @@
+# Alla era morgonfrågor på en och samma plats
+
 # Hur fungerar pop funktionen på en lista.
 
 people = ["Anton", "Erik", "Maja", "Amanda"]
