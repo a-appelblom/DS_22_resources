@@ -25,7 +25,7 @@ def division(num1: int, num2: int):
 
 def get_input(prev_value: int | float | None) -> Tuple[int | float, int]:
     valid = False
-    if prev_value:
+    if prev_value != None:
         valid = True
         validated1 = prev_value
     while not valid:
@@ -84,7 +84,7 @@ def main():
     print("Kalkylator")
 
     will_continue = True
-    res = 0
+    res = None
     reuse = False
     while will_continue:
         if not reuse:

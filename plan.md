@@ -98,35 +98,65 @@
     - OS
     - Sys
     - ...mfl
-- [Föreläsning 5](#föreläsning-5): gemensam, Installera och använda bibliotek
+- [Föreläsning 5](#föreläsning-5): gemensam, Klasser fortsättning, Lite mer om funktioner, Errorhantering
+  - Funktioner
+    - first class functions
+    - lambda
+    - decorator (Nämna för att förstå)
+  - Klasser
+    - statiska metoder och attribut
+    - privata metoder och attribut
+    - dataklasser
+    - arv
+  - Errorhantering
+    - try
+    - except
+    - else
+    - finally
+    - raise
+    - assert
+    - custom exceptions
+  - Dela upp kod
+    - moduler
+    - import
+    - from
+    - as
+- [Föreläsning 6](#föreläsning-6): delad, Repetition
+  - Vad ni vill göra
+- [Föreläsning 7](#föreläsning-7):, gemensam, Arbeta med databas
   - ENV
     - PIP
     - Anaconda
     - PIPENV / VENV / CONDA
   - Bibliotek
-    - (Om vi inte har hunnit) Standard
-      - enum
-      - Datetim
+    - installera bibliotek
+      - pip
+      - conda
+      - github
+    - Några exempel
+      - Requests
+      - Beautifulsoup
+      - Selenium
+      - Pandas
+      - Numpy
+      - Matplotlib
+      - Flask
+      - Django
+      - SQLAlchemy
       - ...mfl
-    - Requests
-- [Föreläsning 6](#föreläsning-6): delad, Hämta data
-  - Fil
-  - API
-  - Scraping
-- [Föreläsning 7](#föreläsning-7):, gemensam, Arbeta med databas
+- [Föreläsning 8](#föreläsning-8): delad, DS bibliotek
   - Typer av databas
   - Koppla till databas
   - SQL i python
   - ORM
     - SQLAlchemy
     - övriga
-- [Föreläsning 8](#föreläsning-8): delad, DS bibliotek
+- [Föreläsning 9](#föreläsning-9): gemensam, Bygger webscraper
   - Numpy
   - Pandas
   - Matlibplot
-- [Föreläsning 9](#föreläsning-9): gemensam, Bygger webscraper
 - [Föreläsning 10](#föreläsning-10): delad, Bygger API
-- [Föreläsning 11](#föreläsning-11): TBD
+- [Föreläsning 11](#föreläsning-11): Bygger enkel webbscraper
 - [Föreläsning 12](#föreläsning-12): TBD
 - [Föreläsning 13](#föreläsning-13): TBD
 - [Föreläsning 14](#föreläsning-14): TBD
