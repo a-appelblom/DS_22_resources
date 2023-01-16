@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from imports.card import Card
 
 
 class Person:
