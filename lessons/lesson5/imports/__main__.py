@@ -1,4 +1,6 @@
-from deck import Deck
+from card_game_base.deck import Deck
+from classes import Dog
+# from lesson5.classes import Dog
 
 
 # from lessons.lesson5.imports.deck import Deck

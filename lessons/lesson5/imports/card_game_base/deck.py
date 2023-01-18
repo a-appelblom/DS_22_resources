@@ -2,7 +2,7 @@ from typing import List
 
 # from lessons.lesson5.imports.card import Card, CardSuit, CardValue
 
-from card import Card, CardSuit, CardValue
+from card_game_base.card import Card, CardSuit, CardValue
 
 
 print(__name__)
