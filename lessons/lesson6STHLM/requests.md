@@ -1,4 +1,4 @@
-- 1: Kalkylatorn, metoder
+- 1: Kalkylatorn, metoder OK
 - 2: How to read python documentation effectively? Lambda function and comprehensions. Other data types in python such as memory view, complex binary and more
 - 3: while loops with conditions(e.g., if statements)
 - 4: Funktioner med args och kwargs. Import. Mer stora projekt.
