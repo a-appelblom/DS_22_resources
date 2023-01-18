@@ -1,5 +1,10 @@
 # Välkomna till Pythonkursen
 
+_Make it work_,
+_Make it good_,
+_Make it fast_,
+_In that order_
+
 ## Detta är github
 
 Här på github kommer all kod jag skirver under föreläsningarna att laddas upp efter lektionen. Det är mycket trorligt att jag även laddar upp annat roligt material, experiment eller vad jag nu hittar på här också.

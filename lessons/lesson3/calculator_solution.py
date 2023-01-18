@@ -4,19 +4,19 @@ global OPERATIONS
 OPERATIONS = ['+', '-', '*', '/']
 
 
-def addition(num1: int, num2: int):
+def addition(num1: int | float, num2: int) -> int | float:
     return num1 + num2
 
 
-def subtraction(num1: int, num2: int):
+def subtraction(num1: int | float, num2: int) -> int | float:
     return num1 - num2
 
 
-def multiplication(num1: int, num2: int):
+def multiplication(num1: int | float, num2: int) -> int | float:
     return num1 * num2
 
 
-def division(num1: int, num2: int):
+def division(num1: int | float, num2: int) -> float:
     while num2 == 0:
         print("kan inte dividera med 0")
         num1, num2 = get_input(prev_value=num1)
@@ -62,22 +62,31 @@ def get_operation() -> str:
     return operation
 
 
-def get_continue() -> bool:
+def get_yes_no(prompt: str):
     while True:
-        choice = input("Vill du fortsätta? ('y'/'n'): ")
+        choice = input(prompt)
         if choice == "y":
             return True
         if choice == "n":
             return False
 
 
-def get_re_use_res() -> bool:
-    while True:
-        choice = input("Vill du återanvända resultatet? ('y'/'n'): ")
-        if choice == "y":
-            return True
-        if choice == "n":
-            return False
+# def get_continue() -> bool:
+#     while True:
+#         choice = input("Vill du fortsätta? ('y'/'n'): ")
+#         if choice == "y":
+#             return True
+#         if choice == "n":
+#             return False
+
+
+# def get_re_use_res() -> bool:
+#     while True:
+#         choice = input("Vill du återanvända resultatet? ('y'/'n'): ")
+#         if choice == "y":
+#             return True
+#         if choice == "n":
+#             return False
 
 
 def main():
@@ -102,10 +111,15 @@ def main():
             res = division(num1, num2)
         print(res)
 
-        will_continue = get_continue()
+        will_continue = get_yes_no("Vill du fortsätta? ('y'/'n'): ")
         if not will_continue:
             break
-        reuse = get_re_use_res()
+        reuse = get_yes_no("Vill du återanvända resultatet? ('y'/'n'): ")
 
 
 main()
+
+# Make it work
+# Make it good
+# Make it fast
+# In that order
