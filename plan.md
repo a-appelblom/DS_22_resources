@@ -151,12 +151,15 @@
   - ORM
     - SQLAlchemy
     - övriga
-- [Föreläsning 9](#föreläsning-9): gemensam, Bygger webscraper
+- [Föreläsning 9](#föreläsning-9): gemensam, Bygger API
+- [Föreläsning 10](#föreläsning-10): delad, Bygger Webbscraper
+  - Beautiful Soup
+  - Requests
+  - Lite HTML
+- [Föreläsning 11](#föreläsning-11): Data science bibliotek
   - Numpy
   - Pandas
   - Matlibplot
-- [Föreläsning 10](#föreläsning-10): delad, Bygger API
-- [Föreläsning 11](#föreläsning-11): Bygger enkel webbscraper
 - [Föreläsning 12](#föreläsning-12): TBD
 - [Föreläsning 13](#föreläsning-13): TBD
 - [Föreläsning 14](#föreläsning-14): TBD
@@ -271,6 +274,8 @@ Operatorer eller logiska operatorer i detta fall är vad som används för att j
 
 Vi kommer att gå igenom hur vi kan använda if-satser i python. Vi kommer att gå igenom hur vi kan använda dem för att göra olika saker beroende på om ett värde är större eller mindre än ett annat värde.
 
+---
+
 ### Föreläsning 3: Funktioner och kod upplägg
 
 #### Funktioner
@@ -301,47 +306,55 @@ Vi går igenom hur vi kan dela upp vår kod i olika filer för att göra koden m
 
 ---
 
-### Föreläsning 5: Installera, hämta & använda paket
+### Föreläsning 5: Mer funktioner, Mer klasser, Errorhantering och uppdelning av filer
 
 ---
 
-### Föreläsning 6: Hämta data
+### Föreläsning 6: Repetition
 
 ---
 
-### Föreläsning 7: Arbeta med databaser
+### Föreläsning 7: Virtuella miljöer och tredjepartsbibliotek
+
+#### Vad är en virtuell miljö?
+
+Vi tittar på vad en virtuell miljö är och varför vi vill använda det. Vi kommer också titta på att skapa en virtuell miljö med några olika verktyg.
+
+#### Tredjepartsbibliotek
+
+Vi kommer först och främst att titta på hur vi installerar tredjepartsbibliotek. Vi kommer att titta på hur vi kan använda pip för att installera bibliotek. Vi kommer också att titta på hur vi kan använda pipenv för att skapa en virtuell miljö och installera bibliotek i den. Jag kommer också ge exempel på några bibliotek vi kan använda. Vissa av dessa komemr jag dock att gå igenom igen senare i kursen.
 
 ---
 
-### Föreläsning 8: DataScience bibliotek
+### Föreläsning 8: Koppla till databas
 
 ---
 
-### Föreläsning 9: Bygga en enkel webscraper
+### Föreläsning 9: Bygga ett API
 
 ---
 
-### Föreläsning 10: Bygga ett API
+### Föreläsning 10: Bygga en webscraper
 
 ---
 
-### Föreläsning 11
+### Föreläsning 11: Data Science bibliotek
 
 ---
 
-### Föreläsning 12
+### Föreläsning 12: Handledning
 
 ---
 
-### Föreläsning 13
+### Föreläsning 13: Öppet för roliga ideer
 
 ---
 
-### Föreläsning 14
+### Föreläsning 14: Öppet för roliga ideer
 
 ---
 
-### Föreläsning 15
+### Föreläsning 15: Handledning
 
 ---
 
