@@ -9,7 +9,7 @@ Oldie but goldie. Vi gjorde i början ett higher lower spel med nummer. Inga kla
 I detta fall kommer vi dock behöva använda klasser.
 
 Är detta för enkelt kan ni göra det som kortspelet batalj(krig)
-[regler](https://allakortspel.se/pyramid-patiens/)
+[regler](https://kortspel24.se/batalj/)
 
 ## Memory
 
