@@ -43,7 +43,7 @@ Lite hjälp på traven i git lärandet:
 
 MSSQL
 MySQL
-PostrgreSQL
+PostgreSQL
 SQLite
 MongoDB
 neo4j
