@@ -38,3 +38,14 @@ Lite hjälp på traven i git lärandet:
 ### Artiklar/Guider
 
 - [Om requirements.txt](https://pip.pypa.io/en/stable/user_guide/#requirements-files)
+
+### Databaser
+
+MSSQL
+MySQL
+PostrgreSQL
+SQLite
+MongoDB
+neo4j
+cockroachDB
+faunaDB
