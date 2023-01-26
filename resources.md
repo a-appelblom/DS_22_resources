@@ -41,11 +41,16 @@ Lite hjälp på traven i git lärandet:
 
 ### Databaser
 
-MSSQL
-MySQL
-PostgreSQL
-SQLite
-MongoDB
-neo4j
-cockroachDB
-faunaDB
+#### SQL / Relationella
+
+- [MSSQL](https://www.microsoft.com/sv-se/sql-server/sql-server-downloads)
+- [MySQL](https://www.mysql.com/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [SQLite](https://sqlite.org/index.html)
+- [cockroachDB](https://www.cockroachlabs.com/)
+
+#### NoSQL / Dokument / Graph
+
+- [MongoDB](https://www.mongodb.com/)
+- [neo4j](https://neo4j.com/)
+- [faunaDB](https://fauna.com/home)
