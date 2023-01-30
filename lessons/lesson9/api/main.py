@@ -1,6 +1,7 @@
 # FastAPI
 import sqlite3
 from fastapi import FastAPI
+from pydantic import BaseModel
 
 app = FastAPI()
 
@@ -69,11 +70,64 @@ def get_people():
     return persons
 
 
-@app.get("/person/{id}")
-def get_person_by_id(id: int):
-    get_person_query = """
-    select * from person 
-    WHERE id = ?
+# @app.get("/person/id/{id}")
+# def get_person_by_id(id: int):
+#     get_person_query = """
+#     select * from person
+#     WHERE id = ?
+#     """
+#     data = call_db(get_person_query, id)
+#     return data
+
+
+# @app.get("/person/name/{name}")
+# def get_person_by_name(name: str):
+#     get_person_query = """
+#     select * from person
+#     WHERE name = ?
+#     """
+#     data = call_db(get_person_query, name)
+#     return data
+
+
+@app.get("/person/")
+def get_person(name: str = None, id: int = None):
+    # insert_person_query = """
+    # insert into person (name) values (?)
+    # """
+    # call_db(insert_person_query, name) # Dålig praxis
+    print(name, id)
+
+    return "Get Person"
+
+
+class Person(BaseModel):
+    name: str
+    id: int
+
+
+@app.post("/persona")
+def post_person(person: Person):
+    insert_person_query = """
+    insert into person (name) values (?)
     """
-    data = call_db(get_person_query, id)
+    call_db(insert_person_query, person.name)  # Dålig praxis
+    return person
+
+
+@app.put("/update_person")
+def update_person(person: Person):
+    update_person_query = """
+    UPDATE person SET name = ? WHERE id = ?
+    """
+    call_db(update_person_query, person.name, person.id)
+    pass
+
+
+@app.delete("/delete_person/{id}")
+def delete_person(id: int):
+    delete_person_query = """
+    DELETE FROM person WHERE id = ?
+    """
+    data = call_db(delete_person_query, id)
     return data
