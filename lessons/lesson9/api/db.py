@@ -1,6 +1,6 @@
 import sqlite3
 import os
-from typing import Dict
+from typing import Dict, Tuple
 
 
 class DB:
@@ -31,10 +31,6 @@ class DB:
         return data
 
     def insert(self, *, table: str, fields: Dict[str, str]):
-        # Skapa en query
-        # MEd värden från vårat anrop
-        # Anropa databasen
-
         keys = ",".join(fields.keys())
         values = "','".join(fields.values())
 
@@ -46,3 +42,35 @@ class DB:
         )
         """
         return self.__call_db(query)
+
+    def get(self, *, table: str, where: Tuple[str, str] | None = None):
+        query = f"""
+        SELECT * FROM {table} 
+        """
+        if where:
+            key, val = where
+            where_query = f"""
+            WHERE {key} = {val}
+            """
+            query = query + where_query
+        data = self.__call_db(query)
+        return data
+
+    def delete(self, *, table: str, id: int):
+        delete_query = f"""
+        DELETE FROM {table} WHERE id = {id}
+        """
+        self.__call_db(delete_query)
+
+    def update(self, *, table: str, where: Tuple[str, str], fields: Dict[str, str]):
+        where_key, where_val = where
+        field_query = ""
+        for key, val in fields.items():
+            field_query += f"{key} = '{val}',"
+        field_query = field_query[:-1]
+        update_query = f"""
+        UPDATE {table} SET {field_query} WHERE {where_key} = '{where_val}' 
+        """
+        print(update_query)
+        return self.__call_db(update_query)
+        pass
