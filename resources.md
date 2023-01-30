@@ -28,6 +28,8 @@ Lite hjälp på traven i git lärandet:
 - [oh my posh](https://ohmyposh.dev/docs/) - för att få en finare terminal på windows och mac
 - [oh my zsh](https://ohmyz.sh/) - för att få en finare terminal på mac
 
+- [Deta](https://deta.sh) - Bra gratis plats att hosta kod på en enkel server
+
 ### Extensions
 
 - [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - för att få en bättre python upplevelse i vscode
@@ -54,3 +56,15 @@ Lite hjälp på traven i git lärandet:
 - [MongoDB](https://www.mongodb.com/)
 - [neo4j](https://neo4j.com/)
 - [faunaDB](https://fauna.com/home)
+
+#### Cloud databaser
+
+- [Planetscale](https://planetscale.com)
+- [Supabase](https://supabase.io/)
+
+### API:er
+
+- [Dataportal](https://www.dataportal.se/) - Samlingsplats för att gitta öppen data från statliga källor
+
+- [Lista med olika öppna gratis API:er](https://github.com/public-apis/public-apis)
+- [PokeAPI](https://pokeapi.co/) - Pokemon API
