@@ -21,7 +21,10 @@ import sqlite3
 
 
 def call_db(query: str, *args):
-    connection = sqlite3.connect("test.db")
+    print(args)
+    connection = sqlite3.connect(
+        "c:/Users/anton/Teaching/DS_22_resources/solutions/testing.db"
+    )
     cursor = connection.cursor()
     res = cursor.execute(query, args)
     data = res.fetchall()
@@ -39,14 +42,14 @@ def call_db(query: str, *args):
 # query = """
 # DROP TABLE  test
 # """
-# query = """
-# CREATE TABLE IF NOT EXISTS book(
-#     id INTEGER PRIMARY KEY AUTOINCREMENT,
-#     title VARCHAR (255),
-#     author VARCHAR (255)
-# );
-# """
-# data = call_db(query)
+query = """
+CREATE TABLE IF NOT EXISTS book(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title VARCHAR (255),
+    author VARCHAR (255)
+);
+"""
+data = call_db(query)
 
 # query = """
 # INSERT INTO book (title, author) VALUES (?, ?);

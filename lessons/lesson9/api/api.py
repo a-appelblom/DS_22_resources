@@ -1,3 +1,4 @@
+from typing import Dict
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
@@ -30,7 +31,7 @@ def get_persons():
 def create_user(person: Person):
     print(person)
     db.insert(table="person", fields={"name": person.name, "age": str(person.age)})
-    pass
+    return "Successfully created"
 
 
 @app.delete("/delete_person/{id}")
@@ -46,3 +47,8 @@ def update_person(person: Person):
         where=("id", str(person.id)),
     )
     return data
+
+
+@app.delete("/delete_person_again")
+def delete_person(id: Dict[str, int]):
+    db.delete(table="person", id=id["id"])

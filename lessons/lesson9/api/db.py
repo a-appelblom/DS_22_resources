@@ -13,11 +13,12 @@ class DB:
 
     def __set_up_db(self):
         conn = sqlite3.connect(self.db_url)
-        with open("setup.sql", "r") as file:
+        with open(
+            "c:/Users/anton/Teaching/DS_22_resources/lessons/lesson9/api/setup.sql", "r"
+        ) as file:
             script = file.read()
             conn.executescript(script)
             conn.commit()
-
         conn.close()
 
     def __call_db(self, query):
@@ -73,4 +74,10 @@ class DB:
         """
         print(update_query)
         return self.__call_db(update_query)
-        pass
+
+
+if __name__ == "__main__":
+    db1 = DB("Testing.db")
+    db2 = DB("../Testing2.db")
+
+    db2.insert(table="person", fields={"name": "Anton", "age": "20"})
