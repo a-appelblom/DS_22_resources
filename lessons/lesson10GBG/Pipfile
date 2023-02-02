@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 requests = "*"
 beautifulsoup4 = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 

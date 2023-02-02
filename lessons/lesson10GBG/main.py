@@ -1,18 +1,22 @@
 from dataclasses import dataclass
-import re
+import json
+
+# import re
 from typing import List
 import requests
 from bs4 import BeautifulSoup
 
-
-@dataclass
-class Person:
-    name: str
-    title: str
-    mail: str
-    tel: str
+from models import Person
 
 
+# @dataclass
+# class Person:
+#     name: str
+#     title: str
+#     mail: str
+#     tel: str
+
+api_url = "http://127.0.0.1:8000"
 url = "https://ecutbildning.se/utbildningar/data-scientist/"
 
 res = requests.get(url)
@@ -53,7 +57,7 @@ a_tags = soup.find_all("a")
 people_soup = []
 for tag in a_tags:
     if tag.has_attr("href"):
-        if "mailto" in tag["href"] or "tel" in tag["href"]:
+        if "mailto" in tag["href"]:
             if "card-body" in tag.parent.parent.parent["class"]:
                 tag = tag.parent.parent.parent
                 people_soup.append(tag)
@@ -76,7 +80,7 @@ for person in people_soup:
         elif link["href"].startswith("mailto"):
             mail = link.text.strip()
 
-    people.append(Person(name, title, mail, phone))
+    people.append(Person(name=name, title=title, mail=mail, tel=phone))
     # print(name)
     # print(title)
     # print(mail)
@@ -89,4 +93,4 @@ for person in people_soup:
 # Mail
 
 for person in people:
-    print(person)
+    requests.post(api_url + "/create_person", json.dumps(person.__dict__))
