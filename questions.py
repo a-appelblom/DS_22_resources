@@ -90,6 +90,7 @@ def populate_database():
     connection.close()
 
 
+
 @app.get("/populate")
 def root():
     populate_database()
