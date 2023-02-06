@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="assignment.sql" id="Project-2a4" database="Sqlite" >
+	<schema name="public" >
+		<table name="assignment" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="name" type="TEXT" jt="-1" mandatory="y" />
+			<column name="description" type="TEXT" jt="-1" mandatory="y" />
+			<column name="start_date" type="DATE" jt="91" mandatory="y" />
+			<column name="end_date" type="DATE" jt="91" mandatory="y" />
+			<column name="course_id" type="INTEGER" jt="4" mandatory="y" />
+			<index name="pk_assignment" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="FK_assignment course" to_schema="public" to_table="course" options="" >
+				<fk_column name="course_id" pk="id" />
+			</fk>
+		</table>
+		<table name="course" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="name" type="TEXT" jt="-1" mandatory="y" />
+			<column name="description" type="TEXT" jt="-1" mandatory="y" />
+			<column name="start_date" type="DATE" jt="91" mandatory="y" />
+			<column name="end_date" type="DATE" jt="91" mandatory="y" />
+			<column name="programme_id" type="INTEGER" jt="4" mandatory="y" />
+			<index name="pk_course" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="FK_course programme" to_schema="public" to_table="programme" options="" >
+				<fk_column name="programme_id" pk="id" />
+			</fk>
+		</table>
+		<table name="programme" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="name" type="TEXT" jt="-1" mandatory="y" />
+			<column name="description" type="TEXT" jt="-1" mandatory="y" />
+			<column name="start_date" type="DATE" jt="91" mandatory="y" />
+			<column name="end_date" type="DATE" jt="91" mandatory="y" />
+			<index name="pk_programme" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="student" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="name" type="TEXT" jt="-1" mandatory="y" />
+			<column name="email" type="TEXT" jt="-1" mandatory="y" />
+			<column name="programme_id" type="INTEGER" jt="4" mandatory="y" />
+			<index name="pk_student" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="FK_student programme" to_schema="public" to_table="programme" options="" >
+				<fk_column name="programme_id" pk="id" />
+			</fk>
+		</table>
+		<table name="student_course" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="student_id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="course_id" type="INTEGER" jt="4" mandatory="y" />
+			<index name="pk_student_course" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="FK_student_course student" to_schema="public" to_table="student" options="" >
+				<fk_column name="student_id" pk="id" />
+			</fk>
+			<fk name="FK_student_course course" to_schema="public" to_table="course" options="" >
+				<fk_column name="course_id" pk="id" />
+			</fk>
+		</table>
+		<table name="teacher" spec="" >
+			<column name="id" type="INTEGER" jt="4" mandatory="y" />
+			<column name="name" type="TEXT" jt="-1" mandatory="y" />
+			<column name="email" type="TEXT" jt="-1" mandatory="y" />
+			<column name="course_id" type="INTEGER" jt="4" mandatory="y" />
+			<index name="pk_teacher" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+			<fk name="FK_teacher course" to_schema="public" to_table="course" options="" >
+				<fk_column name="course_id" pk="id" />
+			</fk>
+		</table>
+	</schema>
+	<connector name="Sqlite" database="Sqlite" driver_class="org.sqlite.JDBC" driver_jar="sqlite-jdbc-3.40.0.0.jar" driver_desc="Standard" host="localhost" port="7210" instance="C:\Users\anton\test.db" useSystemProxy="false" />
+	<layout name="Layout" id="Layout-368" show_relation="columns" >
+		<entity schema="public" name="assignment" color="BED3F4" x="608" y="192" />
+		<entity schema="public" name="course" color="BED3F4" x="320" y="192" />
+		<entity schema="public" name="programme" color="BED3F4" x="48" y="64" />
+		<entity schema="public" name="student" color="BED3F4" x="480" y="48" />
+		<entity schema="public" name="student_course" color="BED3F4" x="320" y="80" />
+		<entity schema="public" name="teacher" color="BED3F4" x="640" y="384" />
+	</layout>
+</project>
