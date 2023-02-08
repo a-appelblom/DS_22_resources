@@ -6,6 +6,7 @@ Lite hjälp på traven i git lärandet:
 
 - [githubs git intro resurslista](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
 - [githubs cheatsheet](https://docs.github.com/en/get-started/quickstart/git-cheatsheet)
+- [Skapa github profil sida](https://readme-dev.vercel.app/)
 
 ## Ljud / Video
 
