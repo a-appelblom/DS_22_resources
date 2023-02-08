@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 # from db import DB
-from mssql_db import DB
+from db import DB
 
 
 class Todo(BaseModel):
@@ -13,8 +13,8 @@ class Todo(BaseModel):
 
 
 app = FastAPI()
-# db = DB("todo.db")
-db = DB()
+db = DB("todo.db")
+# db = DB()
 
 app.curr_id = 1
 app.todos: List[Todo] = []
