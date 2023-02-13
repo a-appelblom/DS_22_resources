@@ -1,22 +1,42 @@
-[
-    {
-        "title": "Wake up",
-        "description": "Wake up from coma"
-    },
-    {
-        "title": "Wiggle toes",
-        "description": "Find weird sexist truck to wiggle toes in"
-    },
-    {
-        "title": "Find katana",
-        "description": "I heard Hattori Hanzo is the guy to see"
-    },
-    {
-        "title": "Decapitate japanese yakuza boss",
-        "description": "The katana will come in handy here"
-    },
-    {
-        "title": "Kill Bill",
-        "description": "Use the weird death punch i learned about, some real vulcan stuff that"
-    }
-]
+{
+    "todos": [
+        {
+            "title": "Wake up",
+            "description": "Wake up from coma"
+        },
+        {
+            "title": "Wiggle toes",
+            "description": "Find weird sexist truck to wiggle toes in"
+        },
+        {
+            "title": "Find katana",
+            "description": "I heard Hattori Hanzo is the guy to see"
+        },
+        {
+            "title": "Decapitate japanese yakuza boss",
+            "description": "The katana will come in handy here"
+        },
+        {
+            "title": "Kill Bill",
+            "description": "Use the weird death punch i learned about, some real vulcan stuff that"
+        }
+    ],
+    "users": [
+        {
+            "name": "Anton",
+            "age": 31
+        },
+        {
+            "name": "Antonio",
+            "age": 31
+        },
+        {
+            "name": "Antonia",
+            "age": 31
+        },
+        {
+            "name": "Antwerpen",
+            "age": 31
+        }
+    ]
+}

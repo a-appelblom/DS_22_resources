@@ -29,9 +29,18 @@ class DB:
             description TEXT NOT NULL
         );
         """
+        init_db_query2 = """
+        CREATE TABLE IF NOT EXISTS user (
+            id INTEGER PRIMARY KEY,
+            name TEXT NOT NULL,
+            age INTEGER NOT NULL
+        );
+        """
+
         insert_query = """
         INSERT INTO todo (title, description)
         VALUES ('Do this', 'Dont do that when doing this');
         """
         self.call_db(init_db_query)
+        self.call_db(init_db_query2)
         self.call_db(insert_query)

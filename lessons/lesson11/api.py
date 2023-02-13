@@ -22,7 +22,7 @@ app.todos: List[Todo] = []
 
 @app.get("/")
 def root():
-    return "Hello and welcome to Antons todos!"
+    return "Hello and welcome to Antons todos! Hello and welcome to Antons"
 
 
 @app.get("/todos")

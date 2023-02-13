@@ -1,10 +1,17 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
+import os
 from typing import List
 import requests
 from api import Todo
 
+DB_URL = os.getenv("DB_URL")
+
 
 def url(route: str):
-    return f"http://127.0.0.1:8000{route}"
+    return f"{DB_URL}{route}"
 
 
 print("Hello from todo app")
