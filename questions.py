@@ -90,7 +90,6 @@ def populate_database():
     connection.close()
 
 
-
 @app.get("/populate")
 def root():
     populate_database()
@@ -110,3 +109,30 @@ def get_people():
 @app.post("/post_person")
 def post_person():
     return "Post person"
+
+
+@app.get("/persons/{query}")
+def get_person(
+    query: int | str,
+):  # Detta kallas en union type och är bara ok i python 3.10 och högre eller 3.6 och högre med import från typing
+    print(type(query))
+
+
+# from sqlalchemy import create_engine, text
+# from sqlalchemy.engine import URL
+
+# db_server = "LAPTOP-ET0060J7"
+# db_name = "test"
+# db_driver = "ODBC Driver 17 for SQL Server"
+
+# conn_url = URL.create(
+#     "mssql+pyodbc",
+#     host=db_server,
+#     database=db_name,
+#     query={"trusted_connection": "yes", "driver": db_driver},
+# )
+# engine = create_engine(conn_url)
+
+# with engine.connect() as conn:
+#     conn.execute(text("CREATE TABLE testing (id INT PRIMARY KEY)"))
+#     conn.commit()
