@@ -40,8 +40,15 @@ def get_todos():
     return todos
 
 
-@app.get("/todo/{id}")
-def get_todo(id: int):
+@app.get("/todo/{id_title}")
+def get_todo(id_title: int | str):
+    if type(id_title) is str:
+        # query = """
+        # SELECT * FROM todo where title = ?
+        # """
+        db.get("todos", where=("title", id_title))
+    if type(id_title) is int:
+        db.get("todos", where=("id", str(id_title)))
     return "Returns a single task with id " + str(id)
 
 

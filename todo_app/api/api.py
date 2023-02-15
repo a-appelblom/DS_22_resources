@@ -20,8 +20,9 @@ def sign_up(login: Login, db: Session = Depends(get_db)):
 
 
 @app.post("/auth/login")
-def login(login: Login):
-    pass
+def login(login: Login, db: Session = Depends(get_db)):
+    user = data.login_user(login, db)
+    return user
 
 
 # @app.get("/todos")
